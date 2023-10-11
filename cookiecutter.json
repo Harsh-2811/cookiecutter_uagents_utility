@@ -1,0 +1,16 @@
+{
+  "utility_name": "My Awesome Utility",
+  "short_description": "",
+  "utility_slug": "uagents_{{ cookiecutter.utility_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+  "pypi_plugin_name": "uagents-{{ cookiecutter.utility_name.lower()|replace(' ', '-')|trim() }}",
+  "protocol_module_name": "awesome_module",
+  "author_name": "User A",
+  "domain_name": "example.com",
+  "email": "{{ cookiecutter.author_name.lower() | trim() |replace(' ', '-') }}@{{ cookiecutter.domain_name.lower() | trim() }}",
+  "uagents_version": "0.5.0",
+  "open_source_license": ["MIT", "BSD", "GPLv3", "Apache Software License 2.0"],
+  "github_username": "Github User",
+  "github_url": "https://github.com/{{cookiecutter.github_username|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim()}}/{{cookiecutter.pypi_plugin_name}}",
+  "add_docs": "y",
+  "use_linting": "y"
+}

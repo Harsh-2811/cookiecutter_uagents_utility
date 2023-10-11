@@ -1,0 +1,7 @@
+site_name: {{cookiecutter.utility_slug}}
+site_url: https://{{cookiecutter.domain_name}}
+repo_url: {{cookiecutter.github_url}}
+site_author: {{cookiecutter.author_name}}
+
+nav:
+  - Introduction: 'index.md'
