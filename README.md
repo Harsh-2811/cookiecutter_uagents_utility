@@ -1,3 +1,5 @@
+![alt text](https://github.com/Harsh-2811/cookiecutter_uagents_utility/blob/main/cookie_cutter.png?raw=true)
+
 # cookiecutter-uagents-utility
 
 Minimal [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for authoring [uagents](https://github.com/fetchai/uAgents) utility that help
