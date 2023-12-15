@@ -62,3 +62,5 @@ uagents_google_calendar/
         ├── awesome_moduleWrapper.py
         └── __init__.py
 ```
+
+#### Find guide on blog: https://medium.com/@hrpatel8935/b439acd95808
